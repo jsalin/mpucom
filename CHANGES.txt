@@ -1,0 +1,16 @@
+# Changelog
+Serial port to MPU401 loop
+
+## [1.1] - 2021-01-23
+### Added
+- Buffering to allow higher serial speeds, up to 115200bps
+
+### Changed
+- Source file extension from .c to .cpp (favored by Turbo C++ 3.0)
+
+### Removed
+- Setting of 40x25 text mode (it doesn't work right on all LCD's)
+
+## [1.0] - 2021-01-20
+### Added
+- Initial release version
